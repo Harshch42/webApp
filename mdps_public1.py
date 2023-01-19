@@ -60,7 +60,6 @@ with st.container():
 
     with rightCol:
         st_lottie(lottie_Doc)
-    st.markdown("Select Below Images to navigate thourgh diseases")
     
 st.write("---")
 
@@ -82,13 +81,14 @@ st.write("##")
 # sidebar for navigation
 with st.container():
     
-    selected = option_menu('Multiple Disease Prediction System',
-                          
-                          ['Diabetes Prediction',
+    selected = option_menu(
+                          menu_title='Disease Prediction',
+                          menu_icon='cpu',
+                          options=['Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Liver Disfunctionality Prediction',
                            'Select an Option'],
-                          icons=['activity','heart','person','arrow'],
+                          icons=['coin','activity','cup-straw','arrow-left-circle-fill'],
                           default_index=3,
                           orientation="horizontal",
                           )
