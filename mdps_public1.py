@@ -55,8 +55,7 @@ with st.container():
             diabetes  please get the required laboratory results as per the attributes in the
             respective disease detection tab.
             
-            - (Warning: The results  are not medically certified so take them just as a suggestion 
-              that you could be having the concerned disease.)
+            - (Warning: The results  are not medically certified)
 
             """
         )
