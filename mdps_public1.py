@@ -57,22 +57,7 @@ with st.container():
 
     with rightCol:
         st_lottie(lottie_Doc)
-        st.write("##")
-        st.write("""
-                    Diabetes
-
-                    -Make healthy eating and physical activity part of your daily routine. 
-                    -Maintain a healthy weight.
-                    -Avoid Smoking.
-                    -Keep your blood pressure and cholesterol under control
-                    -Schedule regular physicals and eye exams
-                    -Take care of your teeth
-                    -Consider a daily aspirin
-                    -If you drink alcohol, do so responsibly
-                    -Take stress seriously , Get plenty of sleep
-                    
-                    """)   
-    
+          
     
 st.write("---")
 
@@ -130,7 +115,22 @@ if (selected == 'Diabetes Prediction'):
         Age = st.text_input('Age of the Person')
     
     with col2:
-        st.image(imgDiabetes)   
+        st.image(imgDiabetes) 
+        st.write("##")
+        st.write("""
+                    Diabetes
+
+                    -Make healthy eating and physical activity part of your daily routine. 
+                    -Maintain a healthy weight.
+                    -Avoid Smoking.
+                    -Keep your blood pressure and cholesterol under control
+                    -Schedule regular physicals and eye exams
+                    -Take care of your teeth
+                    -Consider a daily aspirin
+                    -If you drink alcohol, do so responsibly
+                    -Take stress seriously , Get plenty of sleep
+                    
+                    """)
     
     
     # code for Prediction
