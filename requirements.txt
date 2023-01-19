@@ -4,4 +4,3 @@ streamlit==1.2.0
 streamlit-option-menu==0.3.2
 scikit-learn==1.0.1
 streamlit_lottie==0.0.3
-streamlit_components_v1==0.63
