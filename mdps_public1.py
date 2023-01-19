@@ -50,6 +50,13 @@ with st.container():
             Heart disease , Liver disease and the chatbot(Docbot) will help you with some remedies
             for commonly happening bodily causes as well as recommend readily available
             Doctors for the same.
+            
+            For detecting yourselves for more serious issues related to heart, liver, and
+            diabetes  please get the required laboratory results as per the attributes in the
+            respective disease detection tab.
+            
+            - (Warning: The results  are not medically certified so take them just as a suggestion 
+              that you could be having the concerned disease.)
 
             """
         )
