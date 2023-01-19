@@ -120,15 +120,15 @@ if (selected == 'Diabetes Prediction'):
         st.write("""
                     Diabetes
 
-                    -Make healthy eating and physical activity part of your daily routine. 
-                    -Maintain a healthy weight.
-                    -Avoid Smoking.
-                    -Keep your blood pressure and cholesterol under control
-                    -Schedule regular physicals and eye exams
-                    -Take care of your teeth
-                    -Consider a daily aspirin
-                    -If you drink alcohol, do so responsibly
-                    -Take stress seriously , Get plenty of sleep
+                    - Make healthy eating and physical activity part of your daily routine. 
+                    - Maintain a healthy weight.
+                    - Avoid Smoking.
+                    - Keep your blood pressure and cholesterol under control
+                    - Schedule regular physicals and eye exams
+                    - Take care of your teeth
+                    - Consider a daily aspirin
+                    - If you drink alcohol, do so responsibly
+                    - Take stress seriously , Get plenty of sleep
                     
                     """)
     
