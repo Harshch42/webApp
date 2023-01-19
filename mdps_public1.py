@@ -197,7 +197,22 @@ if (selected == 'Heart Disease Prediction'):
         Thallium = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
     with col2:
-        st.image(imgHeart)   
+        st.image(imgHeart)
+        st.write("""
+                    Heart
+
+                    - Control your blood pressure.
+                    - Keep your cholesterol and triglyceride levels under control.
+                    - Stay at a healthy weight.
+                    - Eat a healthy diet.
+                    - Get regular exercise. 
+                    - Limit alcohol. 
+                    - Don't smoke. 
+                    - Manage stress.
+                    - Manage diabetes.
+                    -  Make sure that you get enough sleep
+                                                 
+                    """)   
      
     # code for Prediction
     heart_diagnosis = ''
