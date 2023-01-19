@@ -42,7 +42,7 @@ with st.container():
 
         st.subheader("CodeZillas :v:")
         st.write('---')
-        st.title("Disease Prediction using Machine Learning")
+        st.title("Health Care Service Using Machine Learning and web applications")
         st.write("##")
         st.write(
             """
