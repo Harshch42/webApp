@@ -46,14 +46,10 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Lopem ispum
-            -
-            
-            -
-
-            -
-
-            -
+            This Health Care Service Provider will help you predict diseases like diabetes , 
+            Heart disease , Liver disease and the chatbot(Docbot) will help you with some remedies
+            for commonly happening bodily causes as well as recommend readily available
+            Doctors for the same.
 
             """
         )
