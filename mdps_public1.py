@@ -143,10 +143,24 @@ if (selected == 'Diabetes Prediction'):
         
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'The person is diabetic'
+          warn_diabetic="""
+                        There is a high probability that the person has Diabetes , It is Recommended to visit a Specialist Doctor as soon as possible
+                            Here is a list of Some Doctors that are available ,
+                            1) Dr. Vivek Chaudhari , lower Parel
+                            2) Dr Nagraj G Huilgol , Vile Parle
+                            3) Dr Nandkishore Kapadia , Andheri
+                            4) Dr Yogesh Kulkarni , Andheri
+
+                            For any further queries :-
+                            Contact - 878*****97          
+                        """
         else:
           diab_diagnosis = 'The person is not diabetic'
+          warn_diabetic='To avoid diabetes follow the precautions given'
         
     st.success(diab_diagnosis)
+    st.warning(warn_diabetic)
+
 
 
 # Heart Disease Prediction Page
