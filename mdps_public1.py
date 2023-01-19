@@ -29,9 +29,9 @@ def lottiefile(url):
     return r.json()
 
 lottie_Doc=lottiefile("https://assets7.lottiefiles.com/packages/lf20_zpjfsp1e.json")
-imgDiabetes=Image.open("images/homeDiabetes1.jpg")
-imgHeart=Image.open("images/homeHeart.png")
-imgLiver=Image.open("images/homeLiver1.jpg")
+imgDiabetes=Image.open("homeDiabetes1.jpg")
+imgHeart=Image.open("homeHeart.png")
+imgLiver=Image.open("homeLiver1.jpg")
 
 #navbar
 
