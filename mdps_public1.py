@@ -78,7 +78,7 @@ with st.container():
                            'Liver Disfunctionality Prediction',
                            'ChatBot',
                            'Select an Option'],
-                          icons=['coin','activity','cup-straw','android','arrow-left-circle-fill'],
+                          icons=['coin','activity','cup-straw','robot','arrow-left-circle-fill'],
                           default_index=4,
                           orientation="horizontal",
                           )
