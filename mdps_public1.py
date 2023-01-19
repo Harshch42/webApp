@@ -270,6 +270,15 @@ if (selected == "Liver Disfunctionality Prediction"):
 
     with col2:
         st.image(imgLiver)
+        st.write("""
+                    Liver 
+
+                    - A healthy lifestyle
+                    - A well-balanced diet
+                    - Avoiding excess alcohol consumption
+                    - Weight management with a regular physical exercise regimen
+
+                    """)
 
     # code for Prediction
     liver_diagnosis = ''
