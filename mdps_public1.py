@@ -34,6 +34,7 @@ lottiw_email=lottiefile("https://assets7.lottiefiles.com/packages/lf20_9yi1cm7i.
 imgDiabetes=Image.open("homeDiabetes1.jpg")
 imgHeart=Image.open("homeHeart.png")
 imgLiver=Image.open("homeLiver1.jpg")
+imgChatbot=Image.open("homeChatbot.png")
 
 # for homepage
 
@@ -306,6 +307,17 @@ if (selected == "Liver Disfunctionality Prediction"):
 if (selected=='ChatBot'):
     col_1,col_2=st.columns(2)
     with col_2:
+        st.image(imgChatbot)
+        st.write("""
+                    A HealthCare Tool to prescribe remedies for some common bodily problems 
+                    like fever, wounds, and cuts, headaches ,etc.
+
+                    This DocBot helps user with some homely remedies and suggests doctors, and 
+                    helps book appointments  according to their problems.
+
+                """)
+
+    with col_1:
         components.html(
 
                         """
@@ -329,7 +341,7 @@ if (selected=='ChatBot'):
                         </script>
                         
                         """,height=600,
-                        width=400,
+                        width=600,
                         )
 with st.container():
     st.write("---")
