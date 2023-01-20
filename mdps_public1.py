@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import pickle
 import requests
 from PIL import Image
