@@ -30,6 +30,7 @@ def lottiefile(url):
     return r.json()
 
 lottie_Doc=lottiefile("https://assets7.lottiefiles.com/packages/lf20_zpjfsp1e.json")
+lottiw_email=lottiefile("https://assets7.lottiefiles.com/packages/lf20_9yi1cm7i.json")
 imgDiabetes=Image.open("homeDiabetes1.jpg")
 imgHeart=Image.open("homeHeart.png")
 imgLiver=Image.open("homeLiver1.jpg")
@@ -330,3 +331,31 @@ if (selected=='ChatBot'):
                         """,height=600,
                         width=400,
                         )
+with st.container():
+    st.write("---")
+    st.header("Contact Us:")
+    st.write("##")
+    colu1,colu2=st.columns(2)
+
+    contact_info="""
+                    <form action="https://formsubmit.co/shivdattjangam08@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Any Suggestions"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                 """
+    with colu1:
+        st.markdown(contact_info,unsafe_allow_html=True)
+
+        def style_css(file_name):
+            with open(file_name) as f:
+                st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
+
+        style_css("style.css")
+    
+    with colu2:
+        st_lottie(lottiw_email,height=300,key="Email")
+
+
